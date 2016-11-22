@@ -1,4 +1,4 @@
-var gulp = require('gulp');
+﻿var gulp = require('gulp');
 var gutil = require('gulp-util');
 //var bower = require('bower');
 var concat = require('gulp-concat');
@@ -30,3 +30,4 @@ gulp.task('sass', function(done) {
     .pipe(gulp.dest('./output/www/lib/'))  //混淆文件放入目标文件夹
     .on('end', done);
 });
+//liws
