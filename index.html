@@ -1,5 +1,6 @@
 <html>
 <head>
+  <title>demo-gulp</title>
   <script src="https://cdn.wilddog.com/js/client/current/wilddog.js"></script>
   <script src="http://cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.min.js"></script>
 </head>
@@ -24,6 +25,9 @@
       $("<div/>").text(text).prepend($("<em/>").text(name+": ")).appendTo($("#messagesDiv"));
       $("#messagesDiv")[0].scrollTop = $("#messagesDiv")[0].scrollHeight;
     };
+    function test(str) {
+      alert(str);
+    }
   </script>
 </body>
 </html>
